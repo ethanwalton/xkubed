@@ -21,14 +21,10 @@ Kubernetes open source container agent that is able to scan for vulnerabilties i
 kubectl apply -f /xkubed.yaml
 ```
 
-### Executing program
+### Build from Scratch 
 
 ```
-cd server
-
-docker build -t SERVER_TAG_NAME .
-
-docker push SERVER_TAG_NAME
+go get -v github.com/ethanwalton/xkubed
 ```
 
 ## Help
@@ -37,13 +33,13 @@ Any advice for common problems or issues.
 
 ## Authors
 
-Ethan Walton - `Senior Security Engineer @ Ripple`
+Ethan Walton - `Senior Security Engineer`
 github - @ethanwalton
 
 ## Version History
 
 * 0.1
-    * Initial Release
+* Initial Release
 
 ## License
 
