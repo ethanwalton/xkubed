@@ -33,13 +33,12 @@ Any advice for common problems or issues.
 
 ## Authors
 
-Ethan Walton - `Senior Security Engineer`
-github - @ethanwalton
+Ethan Walton - `Senior Security Engineer @ Ripple`
 
 ## Version History
 
 * 0.1
-* Initial Release
+* Initial Release  - WIP
 
 ## License
 
