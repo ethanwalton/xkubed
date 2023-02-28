@@ -21,7 +21,7 @@ type baseFlags struct {
 }
 
 // RootCmd defines the shell command usage for kubeaudit.
-var RootCmd = &cobra.Command{
+var BaseCmd = &cobra.Command{
 	Use:   "kubeaudit",
 	Short: "A Kubernetes security auditor",
 	Long: `Kubeaudit audits Kubernetes clusters for common security controls.
@@ -34,7 +34,7 @@ kubeaudit has three modes:
 
 // Execute is a wrapper that accounts for errors in Commands run
 func Execute() {
-	if err := RootCmd.Execute(); err != nil {
+	if err := BaseCmd.Execute(); err != nil {
 		log.Fatal(err)
 	}
 }
