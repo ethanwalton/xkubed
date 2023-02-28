@@ -11,5 +11,3 @@ func main() {
 func init() {
 	BaseCmd.PersistentFlags().StringVarP(&baseConfig.kubeConfig)
 }
-
-//trying to get activity to show on github since
