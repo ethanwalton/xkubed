@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/ethanwalton/xkubed/cmd/commands"
+	"github.com/ethanwalton/xkubed/cmd"
 )
 
-func main() {
-	commands.Execute()
+func cli() {
+	cmd.Execute()
 }
 
 func init() {

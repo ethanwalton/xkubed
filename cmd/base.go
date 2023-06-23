@@ -1,4 +1,4 @@
-package commands
+package cmd
 
 //base will contain functionality for much of the cli to function and execute commands within this repository
 import (
